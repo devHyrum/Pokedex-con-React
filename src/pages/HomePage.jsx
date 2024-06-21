@@ -29,8 +29,8 @@ export const HomePage = () => {
 			</div>
 			<PokemonList />
             <FilterBar />
-            <div className="container-btn-load-more container">
-                <button className='btn-load-more' onClick={onClickLoadMore}>
+            <div className="container-btn-load-more container flex justify-center">
+                <button className='btn-load-more bg-green-500 rounded-full text-white px-4 py-2' onClick={onClickLoadMore}>
                     Cargar más
                 </button>
             </div>
